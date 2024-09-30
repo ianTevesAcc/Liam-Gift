@@ -6,9 +6,6 @@
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "express": "^4.18.2"  // Update to a recent version, e.g., 4.x
-  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/ianTevesAcc/Liam-Gift.git"
