@@ -1,0 +1,26 @@
+{
+  "name": "liam-bday-gift",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",  // This is correct for Heroku
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^10.8.3" // Use ^ to allow minor updates; note that Express 10.x is very old, consider using the latest version (4.x or 5.x)
+  }, // Missing comma here
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ianTevesAcc/Liam-Gift.git"
+  },
+  "keywords": [
+    "liam"
+  ],
+  "author": "ian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianTevesAcc/Liam-Gift/issues"
+  },
+  "homepage": "https://github.com/ianTevesAcc/Liam-Gift#readme",
+  "description": ""
+}
