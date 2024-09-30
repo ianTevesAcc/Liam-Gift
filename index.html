@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday Liam</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body background-image: url()>
+    <!-- This is displayed initially -->
+    <h1 class="click-comment">Click Me</h1>
+
+    <!-- This is display none until the red box is clicked -->
+    <h1 class="happy-birthday-comment" style="display: none;">Happy Birthday Liam</h1>
+
+    <div class="Header">
+      <!-- The red box that the user clicks -->
+      <div class="container">
+        <!-- Bow element -->
+        <div class="bow">
+          <div class="bow-tie"></div>
+        </div>
+
+        <!-- Red box with diagonal stripes -->
+        <div class="red-box" id="red-box">Click to Play the Video</div>
+      </div>
+
+      <!-- YouTube iframe that will be displayed after the user clicks -->
+      <iframe
+        id="youtube-video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/BiPI9ZPoiMA"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+        style="display: none;"  <!-- Initially hide the iframe -->
+      ></iframe>
+    </div>
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
